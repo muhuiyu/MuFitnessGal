@@ -6,17 +6,42 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    let database = DatabaseDataSource()
+    
+    override init() {
+        super.init()
+        database.initDatabase { error in
+            if let error = error {
+                print(error)
+                return
+            }
+        }
+    }
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+        
+        let authViewModel = AuthenticationViewModel()
+        authViewModel.signIn()
+        
+        if authViewModel.state == .signedIn {
+            window.rootViewController = self.setViewControllers(self.database)
+        } else {
+            window.rootViewController = self.redirectToLogin(with: authViewModel)
+        }
+        window.makeKeyAndVisible()
+//        self.write(to: database)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -49,4 +74,73 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
+extension SceneDelegate {
+    private func redirectToLogin(with viewModel: AuthenticationViewModel) -> UIViewController {
+        let welcomeViewController = WelcomeViewController()
+        welcomeViewController.viewModel = viewModel
+        welcomeViewController.viewModel?.delegate = self
+        return welcomeViewController
+    }
+    private func setViewControllers(_ database: DatabaseDataSource) -> UIViewController {
+        let foodRecordViewController = FoodRecordViewController()
+        foodRecordViewController.viewModel = FoodRecordViewModel(on: AppDate(), database)
+        
+        let exerciseViewController = ExerciseViewController()
+        exerciseViewController.viewModel = ExerciseViewModel(database: database)
+        
+        let progressViewController = ProgressViewController()
+        progressViewController.viewModel = ProgressViewModel(database: database)
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [
+            foodRecordViewController.embedInNavgationController(),
+            exerciseViewController.embedInNavgationController(),
+            progressViewController.embedInNavgationController(),
+        ]
+        return tabBarController
+    }
+}
+extension SceneDelegate: AuthenticationViewModelDelegate {
+    func authenticationViewModelDidSignInSuccessfully(_ viewModel: AuthenticationViewModel) {
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return }
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+        window.rootViewController = setViewControllers(database)
+        window.makeKeyAndVisible()
+    }
+}
 
+extension SceneDelegate {
+    private func write(to database: DatabaseDataSource) {
+//        let foodItems: [FoodItemEntry] = []
+//        database.writeData(for: foodItems) { error in
+//            if let error = error {
+//                print(error)
+//                return
+//            }
+//        }
+        let dayRecord = DailyRecordEntry(date: AppDate(),
+                                         meals: [
+                                            MealEntry(name: "breakfast",
+                                                      foodList: [
+                                                        MealFoodRecordEntry(foodID: "food-egg-redmart", portion: 4, unit: "large (50g)"),
+                                                        MealFoodRecordEntry(foodID: "food-shredded-mozzarella-tradition", portion: 100, unit: "gram"),
+                                                      ]),
+                                            MealEntry(name: "lunch",
+                                                      foodList: [
+                                                        MealFoodRecordEntry(foodID: "food-minced-beef-grassfed-85-15-master-grocer", portion: 200, unit: "gram"),
+                                                        MealFoodRecordEntry(foodID: "food-cream-cheese-philadelphia", portion: 100, unit: "gram"),
+                                                      ]),
+                                            MealEntry(name: "dinner",
+                                                      foodList: [
+                                                        
+                                                      ]),
+                                         ],
+                                         goalMacro: Macro(macro: DailyRecordEntry.defaultGoal))
+        database.writeData(for: dayRecord) { error in
+            if let error = error {
+                print(error)
+            }
+        }
+    }
+}

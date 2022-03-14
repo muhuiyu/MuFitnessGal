@@ -7,15 +7,142 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		546C03FC576A0B9D447A83D0 /* Pods_MuFitnessGalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F4F1DF0E5A35628700A886 /* Pods_MuFitnessGalTests.framework */; };
+		9F92A7F8FA51AD1A43F44F50 /* Pods_MuFitnessGal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45EBEDEC62B9FDC8146E63F /* Pods_MuFitnessGal.framework */; };
 		E40054FD27CEECC9005D56CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40054FC27CEECC9005D56CD /* AppDelegate.swift */; };
 		E40054FF27CEECC9005D56CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40054FE27CEECC9005D56CD /* SceneDelegate.swift */; };
-		E400550127CEECC9005D56CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400550027CEECC9005D56CD /* ViewController.swift */; };
-		E400550427CEECC9005D56CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400550227CEECC9005D56CD /* Main.storyboard */; };
 		E400550627CEECCA005D56CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E400550527CEECCA005D56CD /* Assets.xcassets */; };
 		E400550927CEECCA005D56CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400550727CEECCA005D56CD /* LaunchScreen.storyboard */; };
 		E400551427CEECCA005D56CD /* MuFitnessGalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400551327CEECCA005D56CD /* MuFitnessGalTests.swift */; };
 		E400551E27CEECCA005D56CD /* MuFitnessGalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400551D27CEECCA005D56CD /* MuFitnessGalUITests.swift */; };
 		E400552027CEECCA005D56CD /* MuFitnessGalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400551F27CEECCA005D56CD /* MuFitnessGalUITestsLaunchTests.swift */; };
+		E400559427CEEF5C005D56CD /* FoodRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553427CEEF5B005D56CD /* FoodRecordViewController.swift */; };
+		E400559527CEEF5C005D56CD /* FoodRecordDailyMacroItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553627CEEF5B005D56CD /* FoodRecordDailyMacroItemView.swift */; };
+		E400559627CEEF5C005D56CD /* FoodRecordMealFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553727CEEF5B005D56CD /* FoodRecordMealFoodCell.swift */; };
+		E400559727CEEF5C005D56CD /* FoodRecordMealHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553827CEEF5B005D56CD /* FoodRecordMealHeaderCell.swift */; };
+		E400559827CEEF5C005D56CD /* FoodRecordWeekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553927CEEF5B005D56CD /* FoodRecordWeekCell.swift */; };
+		E400559927CEEF5C005D56CD /* FoodRecordDailyMacroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553A27CEEF5B005D56CD /* FoodRecordDailyMacroCell.swift */; };
+		E400559A27CEEF5C005D56CD /* FoodRecordWeekItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553B27CEEF5B005D56CD /* FoodRecordWeekItemView.swift */; };
+		E400559B27CEEF5C005D56CD /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400553F27CEEF5B005D56CD /* ExerciseViewController.swift */; };
+		E400559C27CEEF5C005D56CD /* AppDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554327CEEF5C005D56CD /* AppDate.swift */; };
+		E400559D27CEEF5C005D56CD /* MonthAndYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554427CEEF5C005D56CD /* MonthAndYear.swift */; };
+		E400559E27CEEF5C005D56CD /* FoodItemEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554527CEEF5C005D56CD /* FoodItemEntry.swift */; };
+		E400559F27CEEF5C005D56CD /* DailyRecordEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554627CEEF5C005D56CD /* DailyRecordEntry.swift */; };
+		E40055A027CEEF5C005D56CD /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554727CEEF5C005D56CD /* Macro.swift */; };
+		E40055A127CEEF5C005D56CD /* MealEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554827CEEF5C005D56CD /* MealEntry.swift */; };
+		E40055A227CEEF5C005D56CD /* UIView+fadein.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554A27CEEF5C005D56CD /* UIView+fadein.swift */; };
+		E40055A327CEEF5C005D56CD /* String+convertEmojiToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554B27CEEF5C005D56CD /* String+convertEmojiToImage.swift */; };
+		E40055A427CEEF5C005D56CD /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554C27CEEF5C005D56CD /* UIColor+hex.swift */; };
+		E40055A527CEEF5C005D56CD /* Decimal+formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554D27CEEF5C005D56CD /* Decimal+formatter.swift */; };
+		E40055A627CEEF5C005D56CD /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554E27CEEF5C005D56CD /* UIViewController+Keyboard.swift */; };
+		E40055A727CEEF5C005D56CD /* Date+startOfMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400554F27CEEF5C005D56CD /* Date+startOfMonth.swift */; };
+		E40055A827CEEF5C005D56CD /* UIStack+RemoveAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555027CEEF5C005D56CD /* UIStack+RemoveAll.swift */; };
+		E40055A927CEEF5C005D56CD /* UIView+roundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555127CEEF5C005D56CD /* UIView+roundCorners.swift */; };
+		E40055AA27CEEF5C005D56CD /* Date+BeforeAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555227CEEF5C005D56CD /* Date+BeforeAfter.swift */; };
+		E40055AB27CEEF5C005D56CD /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555327CEEF5C005D56CD /* UIViewController+Toast.swift */; };
+		E40055AC27CEEF5C005D56CD /* UILabel+setLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555427CEEF5C005D56CD /* UILabel+setLineHeight.swift */; };
+		E40055AD27CEEF5C005D56CD /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555527CEEF5C005D56CD /* UIViewController+Utils.swift */; };
+		E40055AE27CEEF5C005D56CD /* String+capitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555627CEEF5C005D56CD /* String+capitalization.swift */; };
+		E40055AF27CEEF5C005D56CD /* String+convertFromHTMLToAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555727CEEF5C005D56CD /* String+convertFromHTMLToAttributedString.swift */; };
+		E40055B027CEEF5C005D56CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555927CEEF5C005D56CD /* Constants.swift */; };
+		E40055B127CEEF5C005D56CD /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555A27CEEF5C005D56CD /* Animations.swift */; };
+		E40055B227CEEF5C005D56CD /* FirebaseStorageImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555B27CEEF5C005D56CD /* FirebaseStorageImageDataProvider.swift */; };
+		E40055B327CEEF5C005D56CD /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555C27CEEF5C005D56CD /* Status.swift */; };
+		E40055B427CEEF5C005D56CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555E27CEEF5C005D56CD /* ViewController.swift */; };
+		E40055B527CEEF5C005D56CD /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400555F27CEEF5C005D56CD /* SpinnerViewController.swift */; };
+		E40055B627CEEF5C005D56CD /* LoadingTextImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556027CEEF5C005D56CD /* LoadingTextImageViewController.swift */; };
+		E40055B727CEEF5C005D56CD /* SearchWordModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556127CEEF5C005D56CD /* SearchWordModalViewController.swift */; };
+		E40055B827CEEF5C005D56CD /* SearchLabelModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556227CEEF5C005D56CD /* SearchLabelModalViewController.swift */; };
+		E40055B927CEEF5C005D56CD /* TitleMultipleChoicesButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556327CEEF5C005D56CD /* TitleMultipleChoicesButtonViewController.swift */; };
+		E40055BA27CEEF5C005D56CD /* TitleDatePickerButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556427CEEF5C005D56CD /* TitleDatePickerButtonViewController.swift */; };
+		E40055BB27CEEF5C005D56CD /* TitleImageButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556527CEEF5C005D56CD /* TitleImageButtonViewController.swift */; };
+		E40055BC27CEEF5C005D56CD /* ImageTitleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556627CEEF5C005D56CD /* ImageTitleButtonViewController.swift */; };
+		E40055BD27CEEF5C005D56CD /* AlertSingleTextFieldTwoActionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556727CEEF5C005D56CD /* AlertSingleTextFieldTwoActionsController.swift */; };
+		E40055BE27CEEF5C005D56CD /* DatabaseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556927CEEF5C005D56CD /* DatabaseDataSource.swift */; };
+		E40055BF27CEEF5C005D56CD /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = E400556A27CEEF5C005D56CD /* food.json */; };
+		E40055C027CEEF5C005D56CD /* LabelDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556D27CEEF5C005D56CD /* LabelDetailCell.swift */; };
+		E40055C127CEEF5C005D56CD /* TextInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556E27CEEF5C005D56CD /* TextInputCell.swift */; };
+		E40055C227CEEF5C005D56CD /* EditableTitleValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400556F27CEEF5C005D56CD /* EditableTitleValueCell.swift */; };
+		E40055C327CEEF5C005D56CD /* AllowEditingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557027CEEF5C005D56CD /* AllowEditingCell.swift */; };
+		E40055C427CEEF5C005D56CD /* LabelToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557127CEEF5C005D56CD /* LabelToggleCell.swift */; };
+		E40055C527CEEF5C005D56CD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557227CEEF5C005D56CD /* TableViewCell.swift */; };
+		E40055C627CEEF5C005D56CD /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557327CEEF5C005D56CD /* TextViewCell.swift */; };
+		E40055C727CEEF5C005D56CD /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557427CEEF5C005D56CD /* DatePickerCell.swift */; };
+		E40055C827CEEF5C005D56CD /* LabelActionsheetSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557527CEEF5C005D56CD /* LabelActionsheetSelectorCell.swift */; };
+		E40055C927CEEF5C005D56CD /* LabelWithDisclosureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557627CEEF5C005D56CD /* LabelWithDisclosureCell.swift */; };
+		E40055CA27CEEF5C005D56CD /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557727CEEF5C005D56CD /* LabelCell.swift */; };
+		E40055CB27CEEF5C005D56CD /* LabelDetailWithDisclosureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557827CEEF5C005D56CD /* LabelDetailWithDisclosureCell.swift */; };
+		E40055CC27CEEF5C005D56CD /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557927CEEF5C005D56CD /* LinkCell.swift */; };
+		E40055CD27CEEF5C005D56CD /* LabelSegmentControllCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557A27CEEF5C005D56CD /* LabelSegmentControllCell.swift */; };
+		E40055CE27CEEF5C005D56CD /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557B27CEEF5C005D56CD /* EmptyView.swift */; };
+		E40055CF27CEEF5C005D56CD /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557D27CEEF5C005D56CD /* IconButton.swift */; };
+		E40055D027CEEF5C005D56CD /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557E27CEEF5C005D56CD /* RoundButton.swift */; };
+		E40055D127CEEF5C005D56CD /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400557F27CEEF5C005D56CD /* TextButton.swift */; };
+		E40055D227CEEF5C005D56CD /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558027CEEF5C005D56CD /* UIColor+Theme.swift */; };
+		E40055D327CEEF5C005D56CD /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558127CEEF5C005D56CD /* ProgressBarView.swift */; };
+		E40055D427CEEF5C005D56CD /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558227CEEF5C005D56CD /* SeparatorView.swift */; };
+		E40055D527CEEF5C005D56CD /* CardTitleImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558427CEEF5C005D56CD /* CardTitleImageButton.swift */; };
+		E40055D627CEEF5C005D56CD /* CardFullWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558527CEEF5C005D56CD /* CardFullWidth.swift */; };
+		E40055D727CEEF5C005D56CD /* CardImageTitleSubtitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558627CEEF5C005D56CD /* CardImageTitleSubtitleButton.swift */; };
+		E40055D827CEEF5C005D56CD /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558727CEEF5C005D56CD /* SpinnerView.swift */; };
+		E40055D927CEEF5C005D56CD /* BullettItemTitleSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558827CEEF5C005D56CD /* BullettItemTitleSubtitleView.swift */; };
+		E40055DA27CEEF5C005D56CD /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558927CEEF5C005D56CD /* ChipView.swift */; };
+		E40055DB27CEEF5C005D56CD /* CustomSelectionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558A27CEEF5C005D56CD /* CustomSelectionField.swift */; };
+		E40055DC27CEEF5C005D56CD /* SetTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558B27CEEF5C005D56CD /* SetTimerView.swift */; };
+		E40055DD27CEEF5C005D56CD /* HeaderWithLargeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558C27CEEF5C005D56CD /* HeaderWithLargeTitleView.swift */; };
+		E40055DE27CEEF5C005D56CD /* UIFont+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558D27CEEF5C005D56CD /* UIFont+Theme.swift */; };
+		E40055DF27CEEF5C005D56CD /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558E27CEEF5C005D56CD /* CustomTextField.swift */; };
+		E40055E027CEEF5C005D56CD /* PagniationIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400558F27CEEF5C005D56CD /* PagniationIndicator.swift */; };
+		E40055E127CEEF5C005D56CD /* MultipleChoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400559027CEEF5C005D56CD /* MultipleChoiceCell.swift */; };
+		E40055E227CEEF5C005D56CD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400559127CEEF5C005D56CD /* CircleView.swift */; };
+		E40055E327CEEF5C005D56CD /* IconTitleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400559227CEEF5C005D56CD /* IconTitleGridView.swift */; };
+		E40055E427CEEF5C005D56CD /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400559327CEEF5C005D56CD /* CheckBox.swift */; };
+		E40055E627CEEF98005D56CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E40055E527CEEF98005D56CD /* GoogleService-Info.plist */; };
+		E42E9F4227D44120002E5923 /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E9F4127D44120002E5923 /* AddFoodViewController.swift */; };
+		E42E9F4427D4412E002E5923 /* CreateNewFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E9F4327D4412E002E5923 /* CreateNewFoodViewController.swift */; };
+		E42E9F4627D4414C002E5923 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E9F4527D4414C002E5923 /* FoodDetailViewController.swift */; };
+		E42E9F4827D4429B002E5923 /* FoodDetailTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E9F4727D4429B002E5923 /* FoodDetailTitleCell.swift */; };
+		E42E9F4E27D46A02002E5923 /* FoodDetailMacroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E9F4D27D46A02002E5923 /* FoodDetailMacroCell.swift */; };
+		E42E9F5027D46A16002E5923 /* FoodDetailMacroItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E9F4F27D46A16002E5923 /* FoodDetailMacroItemView.swift */; };
+		E4300E6427DC8CBB00EF3255 /* FoodRecordWeekCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4300E6327DC8CBB00EF3255 /* FoodRecordWeekCellViewModel.swift */; };
+		E471000227DEBA590067B68A /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471000127DEBA590067B68A /* ProgressViewController.swift */; };
+		E471000427DEBADB0067B68A /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471000327DEBADB0067B68A /* ProgressViewModel.swift */; };
+		E471000D27DEBF810067B68A /* AddFoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471000C27DEBF810067B68A /* AddFoodViewModel.swift */; };
+		E471000F27DF0AB20067B68A /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471000E27DF0AB20067B68A /* CustomPickerView.swift */; };
+		E471001327DF79A30067B68A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471001227DF79A30067B68A /* WelcomeViewController.swift */; };
+		E471001627DF7DA30067B68A /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471001527DF7DA30067B68A /* AuthenticationViewModel.swift */; };
+		E471009E27DC89D70058C16D /* FoodRecordWeekItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471009D27DC89D70058C16D /* FoodRecordWeekItemViewModel.swift */; };
+		E471FFCB27DDB0190067B68A /* FoodRecordDailyMacroCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFCA27DDB0190067B68A /* FoodRecordDailyMacroCellViewModel.swift */; };
+		E471FFCD27DDB0260067B68A /* FoodRecordDailyMacroItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFCC27DDB0260067B68A /* FoodRecordDailyMacroItemViewModel.swift */; };
+		E471FFCF27DDB5800067B68A /* NutritionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFCE27DDB5800067B68A /* NutritionItem.swift */; };
+		E471FFD127DDE3B80067B68A /* Double+roundToDecimalPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFD027DDE3B80067B68A /* Double+roundToDecimalPlace.swift */; };
+		E471FFD327DDF03F0067B68A /* FoodRecordMealHeaderCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFD227DDF03F0067B68A /* FoodRecordMealHeaderCellViewModel.swift */; };
+		E471FFD527DDF0500067B68A /* FoodRecordMealFoodCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFD427DDF0500067B68A /* FoodRecordMealFoodCellViewModel.swift */; };
+		E471FFD727DDF2FD0067B68A /* FoodRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFD627DDF2FD0067B68A /* FoodRecordViewModel.swift */; };
+		E471FFDA27DDFE240067B68A /* FoodDetailTitleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFD927DDFE240067B68A /* FoodDetailTitleCellViewModel.swift */; };
+		E471FFDC27DDFE3E0067B68A /* FoodDetailMacroCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFDB27DDFE3E0067B68A /* FoodDetailMacroCellViewModel.swift */; };
+		E471FFDE27DDFE610067B68A /* FoodDetailMacroItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFDD27DDFE610067B68A /* FoodDetailMacroItemViewModel.swift */; };
+		E471FFE027DDFE6F0067B68A /* FoodDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFDF27DDFE6F0067B68A /* FoodDetailViewModel.swift */; };
+		E471FFE227DE1B3D0067B68A /* FoodDetailLabelDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFE127DE1B3D0067B68A /* FoodDetailLabelDetailCell.swift */; };
+		E471FFE427DE21150067B68A /* MealFoodRecordEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFE327DE21150067B68A /* MealFoodRecordEntry.swift */; };
+		E471FFE627DE25540067B68A /* FoodDetailMacroCaloriesItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFE527DE25540067B68A /* FoodDetailMacroCaloriesItemView.swift */; };
+		E471FFE827DE26190067B68A /* FoodDetailMacroCaloriesItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFE727DE26190067B68A /* FoodDetailMacroCaloriesItemViewModel.swift */; };
+		E471FFEA27DE29140067B68A /* FoodDetailLabelDetailCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFE927DE29140067B68A /* FoodDetailLabelDetailCellViewModel.swift */; };
+		E471FFEC27DE2A1F0067B68A /* FoodDetailLabelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFEB27DE2A1F0067B68A /* FoodDetailLabelDetailView.swift */; };
+		E471FFEE27DE2BA00067B68A /* FoodDetailLabelDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFED27DE2BA00067B68A /* FoodDetailLabelDetailViewModel.swift */; };
+		E471FFF127DE31D10067B68A /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFF027DE31D10067B68A /* ExerciseViewModel.swift */; };
+		E471FFF327DE33D20067B68A /* DailyExerciseLogCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFF227DE33D20067B68A /* DailyExerciseLogCellViewModel.swift */; };
+		E471FFF527DEA1440067B68A /* ExerciseDayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFF427DEA1440067B68A /* ExerciseDayDetailViewModel.swift */; };
+		E471FFF727DEA7830067B68A /* LabelSubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFF627DEA7830067B68A /* LabelSubtitleCell.swift */; };
+		E471FFF927DEAB740067B68A /* DailyExerciseLogSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFF827DEAB740067B68A /* DailyExerciseLogSetCell.swift */; };
+		E471FFFB27DEABC60067B68A /* DailyExerciseLogSetCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFFA27DEABC60067B68A /* DailyExerciseLogSetCellViewModel.swift */; };
+		E471FFFD27DEAD8E0067B68A /* DailyExerciseLogSetCellItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E471FFFC27DEAD8E0067B68A /* DailyExerciseLogSetCellItemView.swift */; };
+		E484F40927D17FD800CC6996 /* ExerciseDayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E484F40827D17FD800CC6996 /* ExerciseDayDetailViewController.swift */; };
+		E4F11D3A27CEF1FB00069E22 /* DailyExerciseLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F11D3927CEF1FB00069E22 /* DailyExerciseLogCell.swift */; };
+		E4F11D3C27CEF46600069E22 /* ExerciseLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F11D3B27CEF46600069E22 /* ExerciseLogEntry.swift */; };
+		E4F11D3E27CEF5C300069E22 /* ExerciseItemEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F11D3D27CEF5C300069E22 /* ExerciseItemEntry.swift */; };
+		E4F11D4027CEF5F200069E22 /* exercise.json in Resources */ = {isa = PBXBuildFile; fileRef = E4F11D3F27CEF5F200069E22 /* exercise.json */; };
+		FD1B13FDF1AB43DD404C8232 /* Pods_MuFitnessGal_MuFitnessGalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B7895B7CC2E4847DF89BF /* Pods_MuFitnessGal_MuFitnessGalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +163,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F28A9A2DA7D7DB4B728643C /* Pods-MuFitnessGal-MuFitnessGalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuFitnessGal-MuFitnessGalUITests.release.xcconfig"; path = "Target Support Files/Pods-MuFitnessGal-MuFitnessGalUITests/Pods-MuFitnessGal-MuFitnessGalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22BF8C37CA5E9CF892CB6677 /* Pods-MuFitnessGal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuFitnessGal.debug.xcconfig"; path = "Target Support Files/Pods-MuFitnessGal/Pods-MuFitnessGal.debug.xcconfig"; sourceTree = "<group>"; };
+		2429514F3B8E372E4148C7FB /* Pods-MuFitnessGalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuFitnessGalTests.debug.xcconfig"; path = "Target Support Files/Pods-MuFitnessGalTests/Pods-MuFitnessGalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58F4F1DF0E5A35628700A886 /* Pods_MuFitnessGalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuFitnessGalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F9E341273E64AD22F227DD /* Pods-MuFitnessGal-MuFitnessGalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuFitnessGal-MuFitnessGalUITests.debug.xcconfig"; path = "Target Support Files/Pods-MuFitnessGal-MuFitnessGalUITests/Pods-MuFitnessGal-MuFitnessGalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B45EBEDEC62B9FDC8146E63F /* Pods_MuFitnessGal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuFitnessGal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DFA0977BDBB4C040A8E980 /* Pods-MuFitnessGal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuFitnessGal.release.xcconfig"; path = "Target Support Files/Pods-MuFitnessGal/Pods-MuFitnessGal.release.xcconfig"; sourceTree = "<group>"; };
+		DB81CA8DF0B0161E3B0A97EB /* Pods-MuFitnessGalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuFitnessGalTests.release.xcconfig"; path = "Target Support Files/Pods-MuFitnessGalTests/Pods-MuFitnessGalTests.release.xcconfig"; sourceTree = "<group>"; };
 		E40054F927CEECC9005D56CD /* MuFitnessGal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuFitnessGal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40054FC27CEECC9005D56CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E40054FE27CEECC9005D56CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E400550027CEECC9005D56CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E400550327CEECC9005D56CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E400550527CEECCA005D56CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E400550827CEECCA005D56CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E400550A27CEECCA005D56CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +182,133 @@
 		E400551927CEECCA005D56CD /* MuFitnessGalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuFitnessGalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E400551D27CEECCA005D56CD /* MuFitnessGalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuFitnessGalUITests.swift; sourceTree = "<group>"; };
 		E400551F27CEECCA005D56CD /* MuFitnessGalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuFitnessGalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E400553427CEEF5B005D56CD /* FoodRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecordViewController.swift; sourceTree = "<group>"; };
+		E400553627CEEF5B005D56CD /* FoodRecordDailyMacroItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecordDailyMacroItemView.swift; sourceTree = "<group>"; };
+		E400553727CEEF5B005D56CD /* FoodRecordMealFoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecordMealFoodCell.swift; sourceTree = "<group>"; };
+		E400553827CEEF5B005D56CD /* FoodRecordMealHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecordMealHeaderCell.swift; sourceTree = "<group>"; };
+		E400553927CEEF5B005D56CD /* FoodRecordWeekCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecordWeekCell.swift; sourceTree = "<group>"; };
+		E400553A27CEEF5B005D56CD /* FoodRecordDailyMacroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecordDailyMacroCell.swift; sourceTree = "<group>"; };
+		E400553B27CEEF5B005D56CD /* FoodRecordWeekItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRecordWeekItemView.swift; sourceTree = "<group>"; };
+		E400553F27CEEF5B005D56CD /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		E400554327CEEF5C005D56CD /* AppDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDate.swift; sourceTree = "<group>"; };
+		E400554427CEEF5C005D56CD /* MonthAndYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthAndYear.swift; sourceTree = "<group>"; };
+		E400554527CEEF5C005D56CD /* FoodItemEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItemEntry.swift; sourceTree = "<group>"; };
+		E400554627CEEF5C005D56CD /* DailyRecordEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyRecordEntry.swift; sourceTree = "<group>"; };
+		E400554727CEEF5C005D56CD /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		E400554827CEEF5C005D56CD /* MealEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealEntry.swift; sourceTree = "<group>"; };
+		E400554A27CEEF5C005D56CD /* UIView+fadein.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+fadein.swift"; sourceTree = "<group>"; };
+		E400554B27CEEF5C005D56CD /* String+convertEmojiToImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+convertEmojiToImage.swift"; sourceTree = "<group>"; };
+		E400554C27CEEF5C005D56CD /* UIColor+hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		E400554D27CEEF5C005D56CD /* Decimal+formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decimal+formatter.swift"; sourceTree = "<group>"; };
+		E400554E27CEEF5C005D56CD /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		E400554F27CEEF5C005D56CD /* Date+startOfMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+startOfMonth.swift"; sourceTree = "<group>"; };
+		E400555027CEEF5C005D56CD /* UIStack+RemoveAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStack+RemoveAll.swift"; sourceTree = "<group>"; };
+		E400555127CEEF5C005D56CD /* UIView+roundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+roundCorners.swift"; sourceTree = "<group>"; };
+		E400555227CEEF5C005D56CD /* Date+BeforeAfter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+BeforeAfter.swift"; sourceTree = "<group>"; };
+		E400555327CEEF5C005D56CD /* UIViewController+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Toast.swift"; sourceTree = "<group>"; };
+		E400555427CEEF5C005D56CD /* UILabel+setLineHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+setLineHeight.swift"; sourceTree = "<group>"; };
+		E400555527CEEF5C005D56CD /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		E400555627CEEF5C005D56CD /* String+capitalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+capitalization.swift"; sourceTree = "<group>"; };
+		E400555727CEEF5C005D56CD /* String+convertFromHTMLToAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+convertFromHTMLToAttributedString.swift"; sourceTree = "<group>"; };
+		E400555927CEEF5C005D56CD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E400555A27CEEF5C005D56CD /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		E400555B27CEEF5C005D56CD /* FirebaseStorageImageDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseStorageImageDataProvider.swift; sourceTree = "<group>"; };
+		E400555C27CEEF5C005D56CD /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		E400555E27CEEF5C005D56CD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E400555F27CEEF5C005D56CD /* SpinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		E400556027CEEF5C005D56CD /* LoadingTextImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingTextImageViewController.swift; sourceTree = "<group>"; };
+		E400556127CEEF5C005D56CD /* SearchWordModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchWordModalViewController.swift; sourceTree = "<group>"; };
+		E400556227CEEF5C005D56CD /* SearchLabelModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLabelModalViewController.swift; sourceTree = "<group>"; };
+		E400556327CEEF5C005D56CD /* TitleMultipleChoicesButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleMultipleChoicesButtonViewController.swift; sourceTree = "<group>"; };
+		E400556427CEEF5C005D56CD /* TitleDatePickerButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDatePickerButtonViewController.swift; sourceTree = "<group>"; };
+		E400556527CEEF5C005D56CD /* TitleImageButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleImageButtonViewController.swift; sourceTree = "<group>"; };
+		E400556627CEEF5C005D56CD /* ImageTitleButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTitleButtonViewController.swift; sourceTree = "<group>"; };
+		E400556727CEEF5C005D56CD /* AlertSingleTextFieldTwoActionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSingleTextFieldTwoActionsController.swift; sourceTree = "<group>"; };
+		E400556927CEEF5C005D56CD /* DatabaseDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseDataSource.swift; sourceTree = "<group>"; };
+		E400556A27CEEF5C005D56CD /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
+		E400556D27CEEF5C005D56CD /* LabelDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelDetailCell.swift; sourceTree = "<group>"; };
+		E400556E27CEEF5C005D56CD /* TextInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputCell.swift; sourceTree = "<group>"; };
+		E400556F27CEEF5C005D56CD /* EditableTitleValueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableTitleValueCell.swift; sourceTree = "<group>"; };
+		E400557027CEEF5C005D56CD /* AllowEditingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowEditingCell.swift; sourceTree = "<group>"; };
+		E400557127CEEF5C005D56CD /* LabelToggleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelToggleCell.swift; sourceTree = "<group>"; };
+		E400557227CEEF5C005D56CD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E400557327CEEF5C005D56CD /* TextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		E400557427CEEF5C005D56CD /* DatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
+		E400557527CEEF5C005D56CD /* LabelActionsheetSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelActionsheetSelectorCell.swift; sourceTree = "<group>"; };
+		E400557627CEEF5C005D56CD /* LabelWithDisclosureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelWithDisclosureCell.swift; sourceTree = "<group>"; };
+		E400557727CEEF5C005D56CD /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		E400557827CEEF5C005D56CD /* LabelDetailWithDisclosureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelDetailWithDisclosureCell.swift; sourceTree = "<group>"; };
+		E400557927CEEF5C005D56CD /* LinkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkCell.swift; sourceTree = "<group>"; };
+		E400557A27CEEF5C005D56CD /* LabelSegmentControllCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelSegmentControllCell.swift; sourceTree = "<group>"; };
+		E400557B27CEEF5C005D56CD /* EmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		E400557D27CEEF5C005D56CD /* IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		E400557E27CEEF5C005D56CD /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		E400557F27CEEF5C005D56CD /* TextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		E400558027CEEF5C005D56CD /* UIColor+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		E400558127CEEF5C005D56CD /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		E400558227CEEF5C005D56CD /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		E400558427CEEF5C005D56CD /* CardTitleImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTitleImageButton.swift; sourceTree = "<group>"; };
+		E400558527CEEF5C005D56CD /* CardFullWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFullWidth.swift; sourceTree = "<group>"; };
+		E400558627CEEF5C005D56CD /* CardImageTitleSubtitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardImageTitleSubtitleButton.swift; sourceTree = "<group>"; };
+		E400558727CEEF5C005D56CD /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		E400558827CEEF5C005D56CD /* BullettItemTitleSubtitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullettItemTitleSubtitleView.swift; sourceTree = "<group>"; };
+		E400558927CEEF5C005D56CD /* ChipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		E400558A27CEEF5C005D56CD /* CustomSelectionField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSelectionField.swift; sourceTree = "<group>"; };
+		E400558B27CEEF5C005D56CD /* SetTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTimerView.swift; sourceTree = "<group>"; };
+		E400558C27CEEF5C005D56CD /* HeaderWithLargeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderWithLargeTitleView.swift; sourceTree = "<group>"; };
+		E400558D27CEEF5C005D56CD /* UIFont+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Theme.swift"; sourceTree = "<group>"; };
+		E400558E27CEEF5C005D56CD /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E400558F27CEEF5C005D56CD /* PagniationIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagniationIndicator.swift; sourceTree = "<group>"; };
+		E400559027CEEF5C005D56CD /* MultipleChoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceCell.swift; sourceTree = "<group>"; };
+		E400559127CEEF5C005D56CD /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E400559227CEEF5C005D56CD /* IconTitleGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTitleGridView.swift; sourceTree = "<group>"; };
+		E400559327CEEF5C005D56CD /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		E40055E527CEEF98005D56CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E42E9F4127D44120002E5923 /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		E42E9F4327D4412E002E5923 /* CreateNewFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewFoodViewController.swift; sourceTree = "<group>"; };
+		E42E9F4527D4414C002E5923 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		E42E9F4727D4429B002E5923 /* FoodDetailTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailTitleCell.swift; sourceTree = "<group>"; };
+		E42E9F4D27D46A02002E5923 /* FoodDetailMacroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailMacroCell.swift; sourceTree = "<group>"; };
+		E42E9F4F27D46A16002E5923 /* FoodDetailMacroItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailMacroItemView.swift; sourceTree = "<group>"; };
+		E4300E6327DC8CBB00EF3255 /* FoodRecordWeekCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordWeekCellViewModel.swift; sourceTree = "<group>"; };
+		E471000127DEBA590067B68A /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		E471000327DEBADB0067B68A /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
+		E471000C27DEBF810067B68A /* AddFoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewModel.swift; sourceTree = "<group>"; };
+		E471000E27DF0AB20067B68A /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		E471001227DF79A30067B68A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E471001527DF7DA30067B68A /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		E471009D27DC89D70058C16D /* FoodRecordWeekItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordWeekItemViewModel.swift; sourceTree = "<group>"; };
+		E471FFCA27DDB0190067B68A /* FoodRecordDailyMacroCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordDailyMacroCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFCC27DDB0260067B68A /* FoodRecordDailyMacroItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordDailyMacroItemViewModel.swift; sourceTree = "<group>"; };
+		E471FFCE27DDB5800067B68A /* NutritionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionItem.swift; sourceTree = "<group>"; };
+		E471FFD027DDE3B80067B68A /* Double+roundToDecimalPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+roundToDecimalPlace.swift"; sourceTree = "<group>"; };
+		E471FFD227DDF03F0067B68A /* FoodRecordMealHeaderCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordMealHeaderCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFD427DDF0500067B68A /* FoodRecordMealFoodCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordMealFoodCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFD627DDF2FD0067B68A /* FoodRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordViewModel.swift; sourceTree = "<group>"; };
+		E471FFD927DDFE240067B68A /* FoodDetailTitleCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailTitleCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFDB27DDFE3E0067B68A /* FoodDetailMacroCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailMacroCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFDD27DDFE610067B68A /* FoodDetailMacroItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailMacroItemViewModel.swift; sourceTree = "<group>"; };
+		E471FFDF27DDFE6F0067B68A /* FoodDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewModel.swift; sourceTree = "<group>"; };
+		E471FFE127DE1B3D0067B68A /* FoodDetailLabelDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailLabelDetailCell.swift; sourceTree = "<group>"; };
+		E471FFE327DE21150067B68A /* MealFoodRecordEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFoodRecordEntry.swift; sourceTree = "<group>"; };
+		E471FFE527DE25540067B68A /* FoodDetailMacroCaloriesItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailMacroCaloriesItemView.swift; sourceTree = "<group>"; };
+		E471FFE727DE26190067B68A /* FoodDetailMacroCaloriesItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailMacroCaloriesItemViewModel.swift; sourceTree = "<group>"; };
+		E471FFE927DE29140067B68A /* FoodDetailLabelDetailCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailLabelDetailCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFEB27DE2A1F0067B68A /* FoodDetailLabelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailLabelDetailView.swift; sourceTree = "<group>"; };
+		E471FFED27DE2BA00067B68A /* FoodDetailLabelDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailLabelDetailViewModel.swift; sourceTree = "<group>"; };
+		E471FFF027DE31D10067B68A /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		E471FFF227DE33D20067B68A /* DailyExerciseLogCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExerciseLogCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFF427DEA1440067B68A /* ExerciseDayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDayDetailViewModel.swift; sourceTree = "<group>"; };
+		E471FFF627DEA7830067B68A /* LabelSubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelSubtitleCell.swift; sourceTree = "<group>"; };
+		E471FFF827DEAB740067B68A /* DailyExerciseLogSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExerciseLogSetCell.swift; sourceTree = "<group>"; };
+		E471FFFA27DEABC60067B68A /* DailyExerciseLogSetCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExerciseLogSetCellViewModel.swift; sourceTree = "<group>"; };
+		E471FFFC27DEAD8E0067B68A /* DailyExerciseLogSetCellItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExerciseLogSetCellItemView.swift; sourceTree = "<group>"; };
+		E484F40827D17FD800CC6996 /* ExerciseDayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDayDetailViewController.swift; sourceTree = "<group>"; };
+		E4F11D3927CEF1FB00069E22 /* DailyExerciseLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyExerciseLogCell.swift; sourceTree = "<group>"; };
+		E4F11D3B27CEF46600069E22 /* ExerciseLogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLogEntry.swift; sourceTree = "<group>"; };
+		E4F11D3D27CEF5C300069E22 /* ExerciseItemEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseItemEntry.swift; sourceTree = "<group>"; };
+		E4F11D3F27CEF5F200069E22 /* exercise.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exercise.json; sourceTree = "<group>"; };
+		E53B7895B7CC2E4847DF89BF /* Pods_MuFitnessGal_MuFitnessGalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuFitnessGal_MuFitnessGalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +316,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F92A7F8FA51AD1A43F44F50 /* Pods_MuFitnessGal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +324,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546C03FC576A0B9D447A83D0 /* Pods_MuFitnessGalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +332,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1B13FDF1AB43DD404C8232 /* Pods_MuFitnessGal_MuFitnessGalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FBF291E0AD3C4E2CD006E32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22BF8C37CA5E9CF892CB6677 /* Pods-MuFitnessGal.debug.xcconfig */,
+				C3DFA0977BDBB4C040A8E980 /* Pods-MuFitnessGal.release.xcconfig */,
+				76F9E341273E64AD22F227DD /* Pods-MuFitnessGal-MuFitnessGalUITests.debug.xcconfig */,
+				1F28A9A2DA7D7DB4B728643C /* Pods-MuFitnessGal-MuFitnessGalUITests.release.xcconfig */,
+				2429514F3B8E372E4148C7FB /* Pods-MuFitnessGalTests.debug.xcconfig */,
+				DB81CA8DF0B0161E3B0A97EB /* Pods-MuFitnessGalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51B2427A94C75789A5CCA20B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B45EBEDEC62B9FDC8146E63F /* Pods_MuFitnessGal.framework */,
+				E53B7895B7CC2E4847DF89BF /* Pods_MuFitnessGal_MuFitnessGalUITests.framework */,
+				58F4F1DF0E5A35628700A886 /* Pods_MuFitnessGalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E40054F027CEECC9005D56CD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +369,8 @@
 				E400551227CEECCA005D56CD /* MuFitnessGalTests */,
 				E400551C27CEECCA005D56CD /* MuFitnessGalUITests */,
 				E40054FA27CEECC9005D56CD /* Products */,
+				1FBF291E0AD3C4E2CD006E32 /* Pods */,
+				51B2427A94C75789A5CCA20B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +387,14 @@
 		E40054FB27CEECC9005D56CD /* MuFitnessGal */ = {
 			isa = PBXGroup;
 			children = (
+				E400553127CEEF5B005D56CD /* Features */,
+				E400554127CEEF5C005D56CD /* Core */,
 				E40054FC27CEECC9005D56CD /* AppDelegate.swift */,
 				E40054FE27CEECC9005D56CD /* SceneDelegate.swift */,
-				E400550027CEECC9005D56CD /* ViewController.swift */,
-				E400550227CEECC9005D56CD /* Main.storyboard */,
 				E400550527CEECCA005D56CD /* Assets.xcassets */,
 				E400550727CEECCA005D56CD /* LaunchScreen.storyboard */,
 				E400550A27CEECCA005D56CD /* Info.plist */,
+				E40055E527CEEF98005D56CD /* GoogleService-Info.plist */,
 			);
 			path = MuFitnessGal;
 			sourceTree = "<group>";
@@ -127,6 +416,377 @@
 			path = MuFitnessGalUITests;
 			sourceTree = "<group>";
 		};
+		E400553127CEEF5B005D56CD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E471001027DF798B0067B68A /* Auth */,
+				E400553227CEEF5B005D56CD /* Food Record */,
+				E400553D27CEEF5B005D56CD /* Exercise */,
+				E400553C27CEEF5B005D56CD /* Progress */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E400553227CEEF5B005D56CD /* Food Record */ = {
+			isa = PBXGroup;
+			children = (
+				E42E9F4927D46994002E5923 /* Overview Page */,
+				E42E9F4A27D469B1002E5923 /* FoodDetail Page */,
+			);
+			path = "Food Record";
+			sourceTree = "<group>";
+		};
+		E400553327CEEF5B005D56CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E400553427CEEF5B005D56CD /* FoodRecordViewController.swift */,
+				E42E9F4127D44120002E5923 /* AddFoodViewController.swift */,
+				E42E9F4327D4412E002E5923 /* CreateNewFoodViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E400553527CEEF5B005D56CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E400553B27CEEF5B005D56CD /* FoodRecordWeekItemView.swift */,
+				E400553927CEEF5B005D56CD /* FoodRecordWeekCell.swift */,
+				E400553627CEEF5B005D56CD /* FoodRecordDailyMacroItemView.swift */,
+				E400553A27CEEF5B005D56CD /* FoodRecordDailyMacroCell.swift */,
+				E400553827CEEF5B005D56CD /* FoodRecordMealHeaderCell.swift */,
+				E400553727CEEF5B005D56CD /* FoodRecordMealFoodCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E400553C27CEEF5B005D56CD /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				E471000027DEBA4E0067B68A /* View Models */,
+				E471FFFF27DEBA4A0067B68A /* Views */,
+				E471FFFE27DEBA450067B68A /* Controllers */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		E400553D27CEEF5B005D56CD /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				E471FFEF27DE31510067B68A /* View Models */,
+				E400554027CEEF5B005D56CD /* Views */,
+				E400553E27CEEF5B005D56CD /* Controllers */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		E400553E27CEEF5B005D56CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E400553F27CEEF5B005D56CD /* ExerciseViewController.swift */,
+				E484F40827D17FD800CC6996 /* ExerciseDayDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E400554027CEEF5B005D56CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4F11D3927CEF1FB00069E22 /* DailyExerciseLogCell.swift */,
+				E471FFF827DEAB740067B68A /* DailyExerciseLogSetCell.swift */,
+				E471FFFC27DEAD8E0067B68A /* DailyExerciseLogSetCellItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E400554127CEEF5C005D56CD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E400554227CEEF5C005D56CD /* Models */,
+				E400554927CEEF5C005D56CD /* Extensions */,
+				E400555827CEEF5C005D56CD /* Logics */,
+				E400555D27CEEF5C005D56CD /* Controllers */,
+				E400556827CEEF5C005D56CD /* Data */,
+				E400556B27CEEF5C005D56CD /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E400554227CEEF5C005D56CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E400554327CEEF5C005D56CD /* AppDate.swift */,
+				E400554427CEEF5C005D56CD /* MonthAndYear.swift */,
+				E400554527CEEF5C005D56CD /* FoodItemEntry.swift */,
+				E400554627CEEF5C005D56CD /* DailyRecordEntry.swift */,
+				E400554727CEEF5C005D56CD /* Macro.swift */,
+				E471FFCE27DDB5800067B68A /* NutritionItem.swift */,
+				E400554827CEEF5C005D56CD /* MealEntry.swift */,
+				E471FFE327DE21150067B68A /* MealFoodRecordEntry.swift */,
+				E4F11D3B27CEF46600069E22 /* ExerciseLogEntry.swift */,
+				E4F11D3D27CEF5C300069E22 /* ExerciseItemEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E400554927CEEF5C005D56CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E400554A27CEEF5C005D56CD /* UIView+fadein.swift */,
+				E400554B27CEEF5C005D56CD /* String+convertEmojiToImage.swift */,
+				E400554C27CEEF5C005D56CD /* UIColor+hex.swift */,
+				E400554D27CEEF5C005D56CD /* Decimal+formatter.swift */,
+				E400554E27CEEF5C005D56CD /* UIViewController+Keyboard.swift */,
+				E400554F27CEEF5C005D56CD /* Date+startOfMonth.swift */,
+				E400555027CEEF5C005D56CD /* UIStack+RemoveAll.swift */,
+				E400555127CEEF5C005D56CD /* UIView+roundCorners.swift */,
+				E400555227CEEF5C005D56CD /* Date+BeforeAfter.swift */,
+				E400555327CEEF5C005D56CD /* UIViewController+Toast.swift */,
+				E400555427CEEF5C005D56CD /* UILabel+setLineHeight.swift */,
+				E400555527CEEF5C005D56CD /* UIViewController+Utils.swift */,
+				E400555627CEEF5C005D56CD /* String+capitalization.swift */,
+				E400555727CEEF5C005D56CD /* String+convertFromHTMLToAttributedString.swift */,
+				E471FFD027DDE3B80067B68A /* Double+roundToDecimalPlace.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E400555827CEEF5C005D56CD /* Logics */ = {
+			isa = PBXGroup;
+			children = (
+				E400555927CEEF5C005D56CD /* Constants.swift */,
+				E400555A27CEEF5C005D56CD /* Animations.swift */,
+				E400555B27CEEF5C005D56CD /* FirebaseStorageImageDataProvider.swift */,
+				E400555C27CEEF5C005D56CD /* Status.swift */,
+			);
+			path = Logics;
+			sourceTree = "<group>";
+		};
+		E400555D27CEEF5C005D56CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E400555E27CEEF5C005D56CD /* ViewController.swift */,
+				E400555F27CEEF5C005D56CD /* SpinnerViewController.swift */,
+				E400556027CEEF5C005D56CD /* LoadingTextImageViewController.swift */,
+				E400556127CEEF5C005D56CD /* SearchWordModalViewController.swift */,
+				E400556227CEEF5C005D56CD /* SearchLabelModalViewController.swift */,
+				E400556327CEEF5C005D56CD /* TitleMultipleChoicesButtonViewController.swift */,
+				E400556427CEEF5C005D56CD /* TitleDatePickerButtonViewController.swift */,
+				E400556527CEEF5C005D56CD /* TitleImageButtonViewController.swift */,
+				E400556627CEEF5C005D56CD /* ImageTitleButtonViewController.swift */,
+				E400556727CEEF5C005D56CD /* AlertSingleTextFieldTwoActionsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E400556827CEEF5C005D56CD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E400556927CEEF5C005D56CD /* DatabaseDataSource.swift */,
+				E400556A27CEEF5C005D56CD /* food.json */,
+				E4F11D3F27CEF5F200069E22 /* exercise.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E400556B27CEEF5C005D56CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E400556C27CEEF5C005D56CD /* Cells */,
+				E400557B27CEEF5C005D56CD /* EmptyView.swift */,
+				E400557C27CEEF5C005D56CD /* Buttons */,
+				E400558027CEEF5C005D56CD /* UIColor+Theme.swift */,
+				E400558127CEEF5C005D56CD /* ProgressBarView.swift */,
+				E400558227CEEF5C005D56CD /* SeparatorView.swift */,
+				E400558327CEEF5C005D56CD /* Cards */,
+				E400558727CEEF5C005D56CD /* SpinnerView.swift */,
+				E400558827CEEF5C005D56CD /* BullettItemTitleSubtitleView.swift */,
+				E400558927CEEF5C005D56CD /* ChipView.swift */,
+				E400558A27CEEF5C005D56CD /* CustomSelectionField.swift */,
+				E400558B27CEEF5C005D56CD /* SetTimerView.swift */,
+				E400558C27CEEF5C005D56CD /* HeaderWithLargeTitleView.swift */,
+				E400558D27CEEF5C005D56CD /* UIFont+Theme.swift */,
+				E400558E27CEEF5C005D56CD /* CustomTextField.swift */,
+				E400558F27CEEF5C005D56CD /* PagniationIndicator.swift */,
+				E400559027CEEF5C005D56CD /* MultipleChoiceCell.swift */,
+				E400559127CEEF5C005D56CD /* CircleView.swift */,
+				E400559227CEEF5C005D56CD /* IconTitleGridView.swift */,
+				E400559327CEEF5C005D56CD /* CheckBox.swift */,
+				E471000E27DF0AB20067B68A /* CustomPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E400556C27CEEF5C005D56CD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E400556D27CEEF5C005D56CD /* LabelDetailCell.swift */,
+				E471FFF627DEA7830067B68A /* LabelSubtitleCell.swift */,
+				E400556E27CEEF5C005D56CD /* TextInputCell.swift */,
+				E400556F27CEEF5C005D56CD /* EditableTitleValueCell.swift */,
+				E400557027CEEF5C005D56CD /* AllowEditingCell.swift */,
+				E400557127CEEF5C005D56CD /* LabelToggleCell.swift */,
+				E400557227CEEF5C005D56CD /* TableViewCell.swift */,
+				E400557327CEEF5C005D56CD /* TextViewCell.swift */,
+				E400557427CEEF5C005D56CD /* DatePickerCell.swift */,
+				E400557527CEEF5C005D56CD /* LabelActionsheetSelectorCell.swift */,
+				E400557627CEEF5C005D56CD /* LabelWithDisclosureCell.swift */,
+				E400557727CEEF5C005D56CD /* LabelCell.swift */,
+				E400557827CEEF5C005D56CD /* LabelDetailWithDisclosureCell.swift */,
+				E400557927CEEF5C005D56CD /* LinkCell.swift */,
+				E400557A27CEEF5C005D56CD /* LabelSegmentControllCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E400557C27CEEF5C005D56CD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E400557D27CEEF5C005D56CD /* IconButton.swift */,
+				E400557E27CEEF5C005D56CD /* RoundButton.swift */,
+				E400557F27CEEF5C005D56CD /* TextButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E400558327CEEF5C005D56CD /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				E400558427CEEF5C005D56CD /* CardTitleImageButton.swift */,
+				E400558527CEEF5C005D56CD /* CardFullWidth.swift */,
+				E400558627CEEF5C005D56CD /* CardImageTitleSubtitleButton.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		E42E9F4927D46994002E5923 /* Overview Page */ = {
+			isa = PBXGroup;
+			children = (
+				E471009C27DC89C10058C16D /* View Models */,
+				E400553527CEEF5B005D56CD /* Views */,
+				E400553327CEEF5B005D56CD /* Controllers */,
+			);
+			path = "Overview Page";
+			sourceTree = "<group>";
+		};
+		E42E9F4A27D469B1002E5923 /* FoodDetail Page */ = {
+			isa = PBXGroup;
+			children = (
+				E471FFD827DDFE110067B68A /* View Models */,
+				E42E9F4C27D469CA002E5923 /* Views */,
+				E42E9F4B27D469C4002E5923 /* Controllers */,
+			);
+			path = "FoodDetail Page";
+			sourceTree = "<group>";
+		};
+		E42E9F4B27D469C4002E5923 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E42E9F4527D4414C002E5923 /* FoodDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E42E9F4C27D469CA002E5923 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E42E9F4727D4429B002E5923 /* FoodDetailTitleCell.swift */,
+				E42E9F4D27D46A02002E5923 /* FoodDetailMacroCell.swift */,
+				E471FFE527DE25540067B68A /* FoodDetailMacroCaloriesItemView.swift */,
+				E42E9F4F27D46A16002E5923 /* FoodDetailMacroItemView.swift */,
+				E471FFE127DE1B3D0067B68A /* FoodDetailLabelDetailCell.swift */,
+				E471FFEB27DE2A1F0067B68A /* FoodDetailLabelDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E471000027DEBA4E0067B68A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E471000327DEBADB0067B68A /* ProgressViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E471001027DF798B0067B68A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E471001427DF7D930067B68A /* View Models */,
+				E471001127DF79970067B68A /* Controllers */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E471001127DF79970067B68A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E471001227DF79A30067B68A /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E471001427DF7D930067B68A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E471001527DF7DA30067B68A /* AuthenticationViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E471009C27DC89C10058C16D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E471FFD627DDF2FD0067B68A /* FoodRecordViewModel.swift */,
+				E471009D27DC89D70058C16D /* FoodRecordWeekItemViewModel.swift */,
+				E4300E6327DC8CBB00EF3255 /* FoodRecordWeekCellViewModel.swift */,
+				E471FFCC27DDB0260067B68A /* FoodRecordDailyMacroItemViewModel.swift */,
+				E471FFCA27DDB0190067B68A /* FoodRecordDailyMacroCellViewModel.swift */,
+				E471FFD227DDF03F0067B68A /* FoodRecordMealHeaderCellViewModel.swift */,
+				E471FFD427DDF0500067B68A /* FoodRecordMealFoodCellViewModel.swift */,
+				E471000C27DEBF810067B68A /* AddFoodViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E471FFD827DDFE110067B68A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E471FFDF27DDFE6F0067B68A /* FoodDetailViewModel.swift */,
+				E471FFD927DDFE240067B68A /* FoodDetailTitleCellViewModel.swift */,
+				E471FFDB27DDFE3E0067B68A /* FoodDetailMacroCellViewModel.swift */,
+				E471FFE727DE26190067B68A /* FoodDetailMacroCaloriesItemViewModel.swift */,
+				E471FFDD27DDFE610067B68A /* FoodDetailMacroItemViewModel.swift */,
+				E471FFE927DE29140067B68A /* FoodDetailLabelDetailCellViewModel.swift */,
+				E471FFED27DE2BA00067B68A /* FoodDetailLabelDetailViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E471FFEF27DE31510067B68A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E471FFF027DE31D10067B68A /* ExerciseViewModel.swift */,
+				E471FFF427DEA1440067B68A /* ExerciseDayDetailViewModel.swift */,
+				E471FFF227DE33D20067B68A /* DailyExerciseLogCellViewModel.swift */,
+				E471FFFA27DEABC60067B68A /* DailyExerciseLogSetCellViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E471FFFE27DEBA450067B68A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E471000127DEBA590067B68A /* ProgressViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E471FFFF27DEBA4A0067B68A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +794,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E400552327CEECCA005D56CD /* Build configuration list for PBXNativeTarget "MuFitnessGal" */;
 			buildPhases = (
+				EF73156129ECB89ED27F5728 /* [CP] Check Pods Manifest.lock */,
 				E40054F527CEECC9005D56CD /* Sources */,
 				E40054F627CEECC9005D56CD /* Frameworks */,
 				E40054F727CEECC9005D56CD /* Resources */,
+				369F34BE5B8A581B58579E5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +813,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E400552627CEECCA005D56CD /* Build configuration list for PBXNativeTarget "MuFitnessGalTests" */;
 			buildPhases = (
+				2DB0510E9044641E1477990B /* [CP] Check Pods Manifest.lock */,
 				E400550B27CEECCA005D56CD /* Sources */,
 				E400550C27CEECCA005D56CD /* Frameworks */,
 				E400550D27CEECCA005D56CD /* Resources */,
@@ -169,9 +832,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E400552927CEECCA005D56CD /* Build configuration list for PBXNativeTarget "MuFitnessGalUITests" */;
 			buildPhases = (
+				2D92068827FD3E075AFDF2CA /* [CP] Check Pods Manifest.lock */,
 				E400551527CEECCA005D56CD /* Sources */,
 				E400551627CEECCA005D56CD /* Frameworks */,
 				E400551727CEECCA005D56CD /* Resources */,
+				AC28407011563737D9FDD926 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +896,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40055BF27CEEF5C005D56CD /* food.json in Resources */,
+				E40055E627CEEF98005D56CD /* GoogleService-Info.plist in Resources */,
 				E400550927CEECCA005D56CD /* LaunchScreen.storyboard in Resources */,
 				E400550627CEECCA005D56CD /* Assets.xcassets in Resources */,
-				E400550427CEECC9005D56CD /* Main.storyboard in Resources */,
+				E4F11D4027CEF5F200069E22 /* exercise.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +920,239 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D92068827FD3E075AFDF2CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuFitnessGal-MuFitnessGalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB0510E9044641E1477990B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuFitnessGalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		369F34BE5B8A581B58579E5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuFitnessGal/Pods-MuFitnessGal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuFitnessGal/Pods-MuFitnessGal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuFitnessGal/Pods-MuFitnessGal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC28407011563737D9FDD926 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuFitnessGal-MuFitnessGalUITests/Pods-MuFitnessGal-MuFitnessGalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuFitnessGal-MuFitnessGalUITests/Pods-MuFitnessGal-MuFitnessGalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuFitnessGal-MuFitnessGalUITests/Pods-MuFitnessGal-MuFitnessGalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF73156129ECB89ED27F5728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuFitnessGal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E40054F527CEECC9005D56CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E400550127CEECC9005D56CD /* ViewController.swift in Sources */,
+				E400559727CEEF5C005D56CD /* FoodRecordMealHeaderCell.swift in Sources */,
+				E40055E427CEEF5C005D56CD /* CheckBox.swift in Sources */,
+				E471FFCB27DDB0190067B68A /* FoodRecordDailyMacroCellViewModel.swift in Sources */,
+				E40055BA27CEEF5C005D56CD /* TitleDatePickerButtonViewController.swift in Sources */,
+				E471FFEC27DE2A1F0067B68A /* FoodDetailLabelDetailView.swift in Sources */,
+				E40055C327CEEF5C005D56CD /* AllowEditingCell.swift in Sources */,
+				E40055D827CEEF5C005D56CD /* SpinnerView.swift in Sources */,
+				E400559B27CEEF5C005D56CD /* ExerciseViewController.swift in Sources */,
+				E40055C727CEEF5C005D56CD /* DatePickerCell.swift in Sources */,
+				E471001327DF79A30067B68A /* WelcomeViewController.swift in Sources */,
+				E40055BB27CEEF5C005D56CD /* TitleImageButtonViewController.swift in Sources */,
+				E471001627DF7DA30067B68A /* AuthenticationViewModel.swift in Sources */,
+				E471FFDE27DDFE610067B68A /* FoodDetailMacroItemViewModel.swift in Sources */,
+				E471FFCD27DDB0260067B68A /* FoodRecordDailyMacroItemViewModel.swift in Sources */,
+				E471FFF927DEAB740067B68A /* DailyExerciseLogSetCell.swift in Sources */,
+				E40055E327CEEF5C005D56CD /* IconTitleGridView.swift in Sources */,
+				E400559E27CEEF5C005D56CD /* FoodItemEntry.swift in Sources */,
+				E471FFDA27DDFE240067B68A /* FoodDetailTitleCellViewModel.swift in Sources */,
+				E40055C227CEEF5C005D56CD /* EditableTitleValueCell.swift in Sources */,
+				E40055D027CEEF5C005D56CD /* RoundButton.swift in Sources */,
+				E40055C427CEEF5C005D56CD /* LabelToggleCell.swift in Sources */,
+				E40055CB27CEEF5C005D56CD /* LabelDetailWithDisclosureCell.swift in Sources */,
+				E471FFD327DDF03F0067B68A /* FoodRecordMealHeaderCellViewModel.swift in Sources */,
+				E40055D127CEEF5C005D56CD /* TextButton.swift in Sources */,
+				E40055BD27CEEF5C005D56CD /* AlertSingleTextFieldTwoActionsController.swift in Sources */,
+				E40055B727CEEF5C005D56CD /* SearchWordModalViewController.swift in Sources */,
+				E4F11D3E27CEF5C300069E22 /* ExerciseItemEntry.swift in Sources */,
+				E40055AE27CEEF5C005D56CD /* String+capitalization.swift in Sources */,
+				E471FFFD27DEAD8E0067B68A /* DailyExerciseLogSetCellItemView.swift in Sources */,
+				E400559527CEEF5C005D56CD /* FoodRecordDailyMacroItemView.swift in Sources */,
+				E40055C527CEEF5C005D56CD /* TableViewCell.swift in Sources */,
+				E40055CE27CEEF5C005D56CD /* EmptyView.swift in Sources */,
+				E471FFF127DE31D10067B68A /* ExerciseViewModel.swift in Sources */,
+				E40055AA27CEEF5C005D56CD /* Date+BeforeAfter.swift in Sources */,
+				E40055D727CEEF5C005D56CD /* CardImageTitleSubtitleButton.swift in Sources */,
+				E471FFE827DE26190067B68A /* FoodDetailMacroCaloriesItemViewModel.swift in Sources */,
+				E42E9F4E27D46A02002E5923 /* FoodDetailMacroCell.swift in Sources */,
+				E40055DD27CEEF5C005D56CD /* HeaderWithLargeTitleView.swift in Sources */,
+				E471FFEA27DE29140067B68A /* FoodDetailLabelDetailCellViewModel.swift in Sources */,
+				E40055B027CEEF5C005D56CD /* Constants.swift in Sources */,
+				E4300E6427DC8CBB00EF3255 /* FoodRecordWeekCellViewModel.swift in Sources */,
+				E471FFD127DDE3B80067B68A /* Double+roundToDecimalPlace.swift in Sources */,
+				E400559927CEEF5C005D56CD /* FoodRecordDailyMacroCell.swift in Sources */,
 				E40054FD27CEECC9005D56CD /* AppDelegate.swift in Sources */,
+				E40055E127CEEF5C005D56CD /* MultipleChoiceCell.swift in Sources */,
+				E471009E27DC89D70058C16D /* FoodRecordWeekItemViewModel.swift in Sources */,
+				E40055DF27CEEF5C005D56CD /* CustomTextField.swift in Sources */,
+				E471FFDC27DDFE3E0067B68A /* FoodDetailMacroCellViewModel.swift in Sources */,
+				E471FFE427DE21150067B68A /* MealFoodRecordEntry.swift in Sources */,
+				E40055DC27CEEF5C005D56CD /* SetTimerView.swift in Sources */,
+				E40055A227CEEF5C005D56CD /* UIView+fadein.swift in Sources */,
+				E40055A827CEEF5C005D56CD /* UIStack+RemoveAll.swift in Sources */,
+				E471FFD527DDF0500067B68A /* FoodRecordMealFoodCellViewModel.swift in Sources */,
+				E40055BC27CEEF5C005D56CD /* ImageTitleButtonViewController.swift in Sources */,
+				E40055CA27CEEF5C005D56CD /* LabelCell.swift in Sources */,
+				E40055A927CEEF5C005D56CD /* UIView+roundCorners.swift in Sources */,
+				E40055B227CEEF5C005D56CD /* FirebaseStorageImageDataProvider.swift in Sources */,
+				E40055A127CEEF5C005D56CD /* MealEntry.swift in Sources */,
+				E40055C027CEEF5C005D56CD /* LabelDetailCell.swift in Sources */,
+				E40055B927CEEF5C005D56CD /* TitleMultipleChoicesButtonViewController.swift in Sources */,
+				E400559D27CEEF5C005D56CD /* MonthAndYear.swift in Sources */,
+				E40055B327CEEF5C005D56CD /* Status.swift in Sources */,
+				E471FFF527DEA1440067B68A /* ExerciseDayDetailViewModel.swift in Sources */,
+				E40055DA27CEEF5C005D56CD /* ChipView.swift in Sources */,
+				E40055A327CEEF5C005D56CD /* String+convertEmojiToImage.swift in Sources */,
+				E471000427DEBADB0067B68A /* ProgressViewModel.swift in Sources */,
+				E40055B527CEEF5C005D56CD /* SpinnerViewController.swift in Sources */,
+				E40055A027CEEF5C005D56CD /* Macro.swift in Sources */,
+				E40055B627CEEF5C005D56CD /* LoadingTextImageViewController.swift in Sources */,
+				E40055E227CEEF5C005D56CD /* CircleView.swift in Sources */,
+				E40055CF27CEEF5C005D56CD /* IconButton.swift in Sources */,
+				E471FFF327DE33D20067B68A /* DailyExerciseLogCellViewModel.swift in Sources */,
+				E40055C927CEEF5C005D56CD /* LabelWithDisclosureCell.swift in Sources */,
+				E40055AF27CEEF5C005D56CD /* String+convertFromHTMLToAttributedString.swift in Sources */,
 				E40054FF27CEECC9005D56CD /* SceneDelegate.swift in Sources */,
+				E40055AC27CEEF5C005D56CD /* UILabel+setLineHeight.swift in Sources */,
+				E40055B127CEEF5C005D56CD /* Animations.swift in Sources */,
+				E40055D427CEEF5C005D56CD /* SeparatorView.swift in Sources */,
+				E471000227DEBA590067B68A /* ProgressViewController.swift in Sources */,
+				E42E9F4227D44120002E5923 /* AddFoodViewController.swift in Sources */,
+				E40055A627CEEF5C005D56CD /* UIViewController+Keyboard.swift in Sources */,
+				E40055D227CEEF5C005D56CD /* UIColor+Theme.swift in Sources */,
+				E40055CD27CEEF5C005D56CD /* LabelSegmentControllCell.swift in Sources */,
+				E40055D527CEEF5C005D56CD /* CardTitleImageButton.swift in Sources */,
+				E400559627CEEF5C005D56CD /* FoodRecordMealFoodCell.swift in Sources */,
+				E42E9F4827D4429B002E5923 /* FoodDetailTitleCell.swift in Sources */,
+				E400559427CEEF5C005D56CD /* FoodRecordViewController.swift in Sources */,
+				E40055D327CEEF5C005D56CD /* ProgressBarView.swift in Sources */,
+				E40055D627CEEF5C005D56CD /* CardFullWidth.swift in Sources */,
+				E40055C127CEEF5C005D56CD /* TextInputCell.swift in Sources */,
+				E40055E027CEEF5C005D56CD /* PagniationIndicator.swift in Sources */,
+				E40055C827CEEF5C005D56CD /* LabelActionsheetSelectorCell.swift in Sources */,
+				E400559A27CEEF5C005D56CD /* FoodRecordWeekItemView.swift in Sources */,
+				E471FFE627DE25540067B68A /* FoodDetailMacroCaloriesItemView.swift in Sources */,
+				E40055C627CEEF5C005D56CD /* TextViewCell.swift in Sources */,
+				E400559F27CEEF5C005D56CD /* DailyRecordEntry.swift in Sources */,
+				E40055A427CEEF5C005D56CD /* UIColor+hex.swift in Sources */,
+				E484F40927D17FD800CC6996 /* ExerciseDayDetailViewController.swift in Sources */,
+				E471FFEE27DE2BA00067B68A /* FoodDetailLabelDetailViewModel.swift in Sources */,
+				E40055A527CEEF5C005D56CD /* Decimal+formatter.swift in Sources */,
+				E40055B827CEEF5C005D56CD /* SearchLabelModalViewController.swift in Sources */,
+				E471FFE027DDFE6F0067B68A /* FoodDetailViewModel.swift in Sources */,
+				E40055B427CEEF5C005D56CD /* ViewController.swift in Sources */,
+				E42E9F4427D4412E002E5923 /* CreateNewFoodViewController.swift in Sources */,
+				E40055AD27CEEF5C005D56CD /* UIViewController+Utils.swift in Sources */,
+				E4F11D3C27CEF46600069E22 /* ExerciseLogEntry.swift in Sources */,
+				E471FFD727DDF2FD0067B68A /* FoodRecordViewModel.swift in Sources */,
+				E42E9F5027D46A16002E5923 /* FoodDetailMacroItemView.swift in Sources */,
+				E471FFF727DEA7830067B68A /* LabelSubtitleCell.swift in Sources */,
+				E471FFE227DE1B3D0067B68A /* FoodDetailLabelDetailCell.swift in Sources */,
+				E471000F27DF0AB20067B68A /* CustomPickerView.swift in Sources */,
+				E40055DB27CEEF5C005D56CD /* CustomSelectionField.swift in Sources */,
+				E471FFFB27DEABC60067B68A /* DailyExerciseLogSetCellViewModel.swift in Sources */,
+				E471000D27DEBF810067B68A /* AddFoodViewModel.swift in Sources */,
+				E42E9F4627D4414C002E5923 /* FoodDetailViewController.swift in Sources */,
+				E400559827CEEF5C005D56CD /* FoodRecordWeekCell.swift in Sources */,
+				E40055A727CEEF5C005D56CD /* Date+startOfMonth.swift in Sources */,
+				E40055CC27CEEF5C005D56CD /* LinkCell.swift in Sources */,
+				E40055AB27CEEF5C005D56CD /* UIViewController+Toast.swift in Sources */,
+				E4F11D3A27CEF1FB00069E22 /* DailyExerciseLogCell.swift in Sources */,
+				E40055DE27CEEF5C005D56CD /* UIFont+Theme.swift in Sources */,
+				E40055D927CEEF5C005D56CD /* BullettItemTitleSubtitleView.swift in Sources */,
+				E400559C27CEEF5C005D56CD /* AppDate.swift in Sources */,
+				E40055BE27CEEF5C005D56CD /* DatabaseDataSource.swift in Sources */,
+				E471FFCF27DDB5800067B68A /* NutritionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +1189,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E400550227CEECC9005D56CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E400550327CEECC9005D56CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E400550727CEECCA005D56CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +1318,7 @@
 		};
 		E400552427CEECCA005D56CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BF8C37CA5E9CF892CB6677 /* Pods-MuFitnessGal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +1329,6 @@
 				INFOPLIST_FILE = MuFitnessGal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +1346,7 @@
 		};
 		E400552527CEECCA005D56CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DFA0977BDBB4C040A8E980 /* Pods-MuFitnessGal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +1357,6 @@
 				INFOPLIST_FILE = MuFitnessGal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,6 +1374,7 @@
 		};
 		E400552727CEECCA005D56CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2429514F3B8E372E4148C7FB /* Pods-MuFitnessGalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +1395,7 @@
 		};
 		E400552827CEECCA005D56CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB81CA8DF0B0161E3B0A97EB /* Pods-MuFitnessGalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +1416,7 @@
 		};
 		E400552A27CEECCA005D56CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F9E341273E64AD22F227DD /* Pods-MuFitnessGal-MuFitnessGalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +1435,7 @@
 		};
 		E400552B27CEECCA005D56CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F28A9A2DA7D7DB4B728643C /* Pods-MuFitnessGal-MuFitnessGalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

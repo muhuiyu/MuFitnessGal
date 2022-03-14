@@ -1,0 +1,6 @@
+framework module Pods_MuFitnessGal {
+  umbrella header "Pods-MuFitnessGal-umbrella.h"
+
+  export *
+  module * { export * }
+}

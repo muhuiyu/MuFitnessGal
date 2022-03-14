@@ -1,0 +1,79 @@
+[
+    {
+        "id": "food-ground-beef-70",
+        "name": "Ground beef (70%)",
+        "brand": "Master chef",
+        "unit": [
+            "gram"
+        ],
+        "macroList": {
+            "gram": {
+                "portion": 100,
+                "unit": "gram",
+                "macro": {
+                    "carbs": 0,
+                    "protein": 14,
+                    "fat": 30,
+                }
+            }
+        }
+    },
+    {
+        "id": "food-chicken-breast",
+        "name": "Chicken breast",
+        "brand": "Hego",
+        "unit": [
+            "gram"
+        ],
+        "macroList": {
+            "gram": {
+                "portion": 100,
+                "unit": "gram",
+                "macro": {
+                    "carbs": 0,
+                    "protein": 22.3,
+                    "fat": 1.6
+                }
+            }
+        }
+    },
+    {
+        "id": "food-mozzarella",
+        "name": "Fresh Mozzarella",
+        "brand": "Cowhead",
+        "unit": [
+            "gram"
+        ],
+        "macroList": {
+            "gram": {
+                "portion": 100,
+                "unit": "gram",
+                "macro": {
+                    "carbs": 3.5,
+                    "protein": 17.6,
+                    "fat": 17.6
+                }
+            }
+        }
+    },
+    {
+        "id": "food-egg",
+        "name": "Egg",
+        "brand": "random place",
+        "unit": [
+            "large (50g)"
+        ],
+        "macroList": {
+            "large (50g)": {
+                "portion": 1,
+                "unit": "large (50g)",
+                "macro": {
+                    "carbs": 0,
+                    "protein": 6,
+                    "fat": 5
+                }
+            }
+        }
+    }
+]
+    
