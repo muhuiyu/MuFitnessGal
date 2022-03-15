@@ -3,6 +3,6 @@
 ## Preview
 ![screenshot-1](/screenshot/screenshot-1.png?raw=true)
 ![screenshot-2](/screenshot/screenshot-2.png?raw=true)
-![screenshot-2](/screenshot/screenshot-3.png?raw=true)
-![screenshot-2](/screenshot/screenshot-4.png?raw=true)
-![screenshot-2](/screenshot/screenshot-5.png?raw=true)
+![screenshot-3](/screenshot/screenshot-3.png?raw=true)
+![screenshot-4](/screenshot/screenshot-4.png?raw=true)
+![screenshot-5](/screenshot/screenshot-5.png?raw=true)
